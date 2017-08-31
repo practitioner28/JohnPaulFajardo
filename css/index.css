@@ -49,6 +49,7 @@ header{
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom:#e8491d 3px solid;
+	font-weight: bold;
 }
 
 header a{
@@ -80,12 +81,10 @@ header nav {
 
 header .highlight, header .current a{
 	color:#e8491d;
-	font-weight: bold;
 }
 
 header a:hover{
-	color:#cccccc;
-	font-weight: bold;
+	color:#d6c715;
 }
 
 
@@ -230,42 +229,3 @@ footer{
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
