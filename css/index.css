@@ -228,4 +228,10 @@ footer{
 		padding: 3px;
 	}
 	
+	#showcase{
+		background:url('../img/bg2.jpg') no-repeat center;
+		background-size: cover;
+	} 
+	
+	
 }
