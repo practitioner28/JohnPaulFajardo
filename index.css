@@ -1,0 +1,142 @@
+html,body{
+  padding: 0;
+  font-family: Open Sans,sans-serif;
+ }
+
+/*          CONTAINER        */
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/*               CLEAR FIX          */
+.clear-fix{
+  clear: both;
+}
+
+/*             HEADER             */
+#header{
+  text-align: left;
+}
+
+.name-nav{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.name-nav,
+.right{
+  padding-top: 30px;
+}
+
+
+/*               MAIN              */
+#main-body{
+  background:
+  linear-gradient(#4a4b4c, transparent 90%),
+  linear-gradient(0deg, #4a4b4c, transparent 90%),
+  url(img/head-bg.jpg) no-repeat center;
+  height: 500px;
+  background-size: cover;
+  padding: 115px 0px 200px;
+}
+
+.main-text{
+  padding-top: 80px;
+}
+
+.h1-text{
+  font-size: 3.1em;
+}
+
+.h1-text,
+.p-text{
+  color: white;
+}
+
+button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 3.5%;
+}
+
+
+/*             FOOTER            */
+
+.footer{
+  padding-bottom: 25px;
+}
+
+.footer-text{
+  text-align: center;
+}
+
+.my-image{
+  text-align: center;
+  border-radius: 100%;
+}
+
+.footer p{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+
+/*       MEDIA QUERIES       */
+
+@media (max-width: 480px) {
+
+  .name-nav,
+  .right{
+     float: none;
+     text-align: center;
+  }
+
+  #main-body{
+     background: none;
+     padding: 10px;
+  }
+
+  .main-text{
+    padding-top: 0;
+  }
+
+  .h1-text,
+  .p-text{
+     color: #4a4b4c;
+     margin: auto;
+  }
+
+  #header{
+      background:
+      linear-gradient(#4a4b4c, transparent 90%),
+      linear-gradient(0deg, #4a4b4c, transparent 90%),
+      url(img/head-bg.jpg) no-repeat center;
+      background-size: cover;
+      padding: 115px 0px 200px;
+  }
+
+
+  .footer{
+    background:linear-gradient(0deg, #a5ed87, transparent 90%);
+    padding-bottom: 1px;
+  }
+
+  .footer p{
+      text-align: center;
+      color: black;
+      font-size: 13px;
+  }
+
+}
+
