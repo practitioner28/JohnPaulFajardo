@@ -69,6 +69,9 @@ button{
   margin-top: 3.5%;
 }
 
+.skills{
+
+}
 
 /*             FOOTER            */
 
@@ -119,7 +122,12 @@ button{
   .h1-text,
   .p-text{
      color: #4a4b4c;
-     margin: auto;
+
+  }
+
+  .p-text{
+    padding-top: 5px;
+    line-height: 21px;
   }
 
   #header{
