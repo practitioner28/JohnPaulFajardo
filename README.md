@@ -1,2 +1,0 @@
-# JohnPaulFajardo
-Web practice
