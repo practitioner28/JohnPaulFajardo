@@ -74,14 +74,16 @@ button{
   text-align: center;
 }
 
-.left-rows{
+.col{
   float: left;
-  width: 50%;
+  width: 23%;
+  padding: 10px;
 }
 
-.right-rows{
-  float: right;
-  width: 50%;
+.rows:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .bootstrap{
@@ -91,8 +93,7 @@ button{
 }
 
 .additional{
-
-  text-align: justify-all;
+  text-align: center;
 }
 
 /*             FOOTER            */
@@ -162,16 +163,11 @@ button{
       padding: 115px 0px 200px;
   }
 
-  .left-rows{
-    float: none;
-    width: 100%;
+  .col{
+  float: none;
+  width: 100%;
+  padding: 0;
   }
-
-  .right-rows{
-    float: none;
-    width: 100%;
-  }
-
 
   .footer{
     background:linear-gradient(0deg, #a5ed87, transparent 90%);
