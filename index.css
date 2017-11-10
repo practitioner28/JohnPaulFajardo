@@ -9,7 +9,6 @@ html,body{
   margin: 0 auto;
 }
 
-
 /*               CLEAR FIX          */
 .clear-fix{
   clear: both;
@@ -43,6 +42,7 @@ html,body{
   height: 500px;
   background-size: cover;
   padding: 115px 0px 200px;
+  border-bottom: 2px #42e8f4 solid;
 }
 
 .main-text{
@@ -69,13 +69,36 @@ button{
   margin-top: 3.5%;
 }
 
+/*           COLUMNS         */
 .skills{
+  text-align: center;
+}
 
+.left-rows{
+  float: left;
+  width: 50%;
+}
+
+.right-rows{
+  float: right;
+  width: 50%;
+}
+
+.bootstrap{
+  background-color: blue;
+  width: 125px;
+  margin: auto;
+}
+
+.additional{
+
+  text-align: justify-all;
 }
 
 /*             FOOTER            */
 
 .footer{
+  background:linear-gradient(0deg, #a5ed87, transparent 90%);
   padding-bottom: 25px;
 }
 
@@ -137,6 +160,16 @@ button{
       url(img/head-bg.jpg) no-repeat center;
       background-size: cover;
       padding: 115px 0px 200px;
+  }
+
+  .left-rows{
+    float: none;
+    width: 100%;
+  }
+
+  .right-rows{
+    float: none;
+    width: 100%;
   }
 
 
