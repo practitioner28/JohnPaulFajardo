@@ -1,184 +1,166 @@
-html,body{
-  padding: 0;
-  font-family: Open Sans,sans-serif;
+/*jumbotron*/
+.jumbotron{
+    background:
+    linear-gradient(#000000, transparent 90%),
+    linear-gradient(0deg, #000000, transparent 20%),
+    url(img/bg.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 0rem;
+    color: #ffffff;
+}
+
+.btn{
+    color: #000000;
+}
+
+
+/*get started*/
+#get-started{
+    background-color: #d9d9d9;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*sign up*/
+#inlineFormInput{
+    width: 50%;
+}
+
+/*footer*/
+footer{
+    background-color: #4d4d4d;
+}
+
+
+/*  Break Points/Media Queries  */
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+    /*NAVIGATION*/
+    .navbar-toggleable-md {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        margin-top: 5px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item{
+        text-align: center;
+        border: solid 2px burlywood;
+    }
+
+    .navbar-brand{
+        margin: 7px;
+    }
+
+    .btn {
+    width: 100%;
+    }
+
+    .d-flex,
+    .mt-0 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .d-flex {
+        margin-top: 10px;
+    }
+
+    /*GET STARTED*/
+    #get-started h1 {
+        text-align: center;
+    }
+
+    #get-started .btn {
+        margin-bottom: 10px;
+    }
+
+    #get-started .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #get-started .video {
+        width: 100%;
+        height: 15rem;
+    }
+
+    /*SIGN UP*/
+    #inlineFormInput,
+    .btn {
+        text-align: center;
+
+    }
+
+    #sign-up .container,
+    #inlineFormInput{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    /*PROGRAMS*/
+    #programs .card-title, .center {
+        text-align: center;
+    }
+
+    #programs .card{
+        margin: 10px;
+    }
+
+    /*FOOTER*/
+    footer h4{
+        text-align: center;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .navbar-toggleable-md{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler{
+            margin-top: 5px;
+        }
+
+    .d-flex,
+    .mt-0{
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+
  }
 
-/*          CONTAINER        */
-.container{
-  width: 70%;
-  margin: 0 auto;
-}
 
-/*               CLEAR FIX          */
-.clear-fix{
-  clear: both;
-}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
 
-/*             HEADER             */
-#header{
-  text-align: left;
-}
+    .navbar-toggleable-md{
+        margin: 0;
+        padding: 0;
+    }
 
-.name-nav{
-  float: left;
-}
+     .navbar-toggler{
+        margin-top: 5px;
+    }
 
-.right{
-  float: right;
-}
+ }
 
-.name-nav,
-.right{
-  padding-top: 30px;
-}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
 
-
-/*               MAIN              */
-#main-body{
-  background:
-  linear-gradient(#4a4b4c, transparent 90%),
-  linear-gradient(0deg, #4a4b4c, transparent 90%),
-  url(img/head-bg.jpg) no-repeat center;
-  height: 500px;
-  background-size: cover;
-  padding: 115px 0px 200px;
-  border-bottom: 2px #42e8f4 solid;
-}
-
-.main-text{
-  padding-top: 80px;
-}
-
-.h1-text{
-  font-size: 3.1em;
-}
-
-.h1-text,
-.p-text{
-  color: white;
-}
-
-button{
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 3.5%;
-}
-
-/*           COLUMNS         */
-.skills{
-  text-align: center;
-}
-
-.col{
-  float: left;
-  width: 23%;
-  padding: 10px;
-}
-
-.rows:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.bootstrap{
-  background-color: blue;
-  width: 125px;
-  margin: auto;
-}
-
-.additional{
-  text-align: center;
-}
-
-/*             FOOTER            */
-
-.footer{
-  background:linear-gradient(0deg, #a5ed87, transparent 90%);
-  padding-bottom: 25px;
-}
-
-.footer-text{
-  text-align: center;
-}
-
-.my-image{
-  text-align: center;
-  border-radius: 100%;
-}
-
-.footer p{
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
-
-/*       MEDIA QUERIES       */
-
-@media (max-width: 480px) {
-
-  .container{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .name-nav,
-  .right{
-     float: none;
-     text-align: center;
-  }
-
-  #main-body{
-     background: none;
-     padding: 10px;
-  }
-
-  .main-text{
-    padding-top: 0;
-  }
-
-  .h1-text,
-  .p-text{
-     color: #4a4b4c;
-
-  }
-
-  .p-text{
-    padding-top: 5px;
-    line-height: 21px;
-  }
-
-  #header{
-      background:
-      linear-gradient(#4a4b4c, transparent 90%),
-      linear-gradient(0deg, #4a4b4c, transparent 90%),
-      url(img/head-bg.jpg) no-repeat center;
-      background-size: cover;
-      padding: 115px 0px 200px;
-  }
-
-  .col{
-  float: none;
-  width: 100%;
-  padding: 0;
-  }
-
-  .footer{
-    background:linear-gradient(0deg, #a5ed87, transparent 90%);
-    padding-bottom: 1px;
-  }
-
-  .footer p{
-      text-align: center;
-      color: black;
-      font-size: 13px;
-  }
-
-}
-
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
