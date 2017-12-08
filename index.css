@@ -245,8 +245,47 @@ footer{
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    /*JUMBOTRON*/
+    .jumbotron .btn{
+        width: 40%;
+    }
+
+    /*BENEFITS*/
+    #benefits .d-flex,
+    .mt-0{
+        text-align: center;
+        margin: auto;
+        padding: 3px;
+    }
+
+    /*GET-STARTED*/
+    #get-started h1{
+        text-align: center;
+    }
+
+    #get-started .btn{
+        width: 100%;
+    }
 
  }
 
  /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+
+        /*BENEFITS*/
+        #benefits .d-flex,
+        .mt-0{
+            text-align: center;
+            margin: auto;
+            padding: 3px;
+        }
+
+        /*GET-STARTED*/
+        #get-started h1{
+            text-align: center;
+        }
+
+        #get-started .btn{
+            width: 50%;
+        }
+ }
